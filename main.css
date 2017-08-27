@@ -1,51 +1,38 @@
-.container{max-width: 400px;
-}
-
 .accordian {
-	padding:0%;
-	list-style: none;
-	border-style: solid;
-    border-color: #05B8CC;
-
+  padding: 0%;
+  list-style: none;
 }
 
-.accordian-header{
-	display: block;
-	padding: 15px 20px;
-	background: #05B8CC;
-	color: white;
-	text-decoration: none;
-	margin-bottom: 0px;
-	font-size: 30px;
-	border-style: solid;
-	border-color: #C4C4C4;
-
+.accordian-header {
+  display: block;
+  padding: 15px 20px;
+  background: #05B8CC;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0px;
+  font-size: 30px;
 }
 
-.accordian-content p{
-	margin:20px;
-	text-align: center;
-	
+.accordian-content p {
+  margin: 20px;
+  text-align: center;
 }
 
-
-.accordian-content{
-	
-	height:0;
-	overflow: hidden;
-	-webkit-transition:height 400ms ease;
-	transition:height 400ms ease
+.accordian-content {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 400ms ease;
+  transition: height 400ms ease
 }
 
-.accordian-content:target{height: 150px;
-	
-	overflow-y: scroll;
-
+.accordian-slider {
+  height: 100px;
 }
 
-.accordian-header:hover{
-	background: #67E6EC
+.accordian-slider-closed {
+  height: 0;
 }
 
-
-
+.accordian-header:hover {
+  background: #67E6EC
+}
